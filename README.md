@@ -1,4 +1,7 @@
 # OffresEmplois
+an application where admin can post job offers and users apply and contact the admin
+
+
 Data base structure
 --
 -- Table structure for table `condidats`
