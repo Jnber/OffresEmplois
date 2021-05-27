@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.main_nav
+	{
+		margin-left: 60px;
+	}
+	.main_nav ul li:not(:last-child)
+	{
+		margin-right: 40px;
+	}
+	.city
+	{
+		width: calc((100% - 27px) / 2);
+		margin-bottom: 26px;
+	}
+	.footer_nav
+	{
+		margin-left: 60px;
+	}
+	.footer_nav ul li:not(:last-child)
+	{
+		margin-right: 25px;
+	}
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.header_content
+	{
+		height: 80px;
+	}
+	.main_nav
+	{
+		display: none;
+	}
+	.phone_num
+	{
+		display: none;
+	}
+	.hamburger
+	{
+		display: block;
+	}
+	.home_title
+	{
+		font-size: 48px;
+	}
+	.home_price
+	{
+		font-size: 24px;
+	}
+	.home_search_container
+	{
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		margin-top: 80px;
+		margin-bottom: 130px;
+		background: linear-gradient(to right, #487fee, #32fa95);
+	}
+	.home_search_content
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.search_form_content > div
+	{
+		width: 100%;
+		height: 50px;
+	}
+	.search_form_content > div:not(:last-child)
+	{
+		border-right: none;
+		border-bottom: solid 1px #d1d1d1;
+	}
+	.search_form_button
+	{
+		position: absolute;
+		bottom: -80px;
+		left: -10px;
+		height: 40px;
+		width: calc(100% + 20px);
+	}
+	.testimonial_col:not(:last-child)
+	{
+		margin-bottom: 60px;
+	}
+	.newsletter_form_container
+	{
+		margin-left: 0;
+		margin-top: 50px;
+	}
+	.newsletter_button
+	{
+		width: 173px;
+		height: 52px;
+		font-size: 12px;
+	}
+	.newsletter_input
+	{
+		height: 52px;
+	}
+	.footer_col:not(:last-child)
+	{
+		margin-bottom: 0px;
+	}
+	.footer_nav
+	{
+		display: none;
+	}
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.city
+	{
+		width: 100%;
+	}
+	.recent_slider_nav_container
+	{
+		display: none;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	.logo
+	{
+		width: 70px;
+	}
+	.header_content
+	{
+		height: 60px;
+	}
+	.menu_close_container
+	{
+		top: 28px;
+		right: 28px;
+	}
+	.menu_item a
+	{
+		font-size: 18px;
+	}
+	.menu_phone
+	{
+		font-size: 11px;
+	}
+	.button
+	{
+		width: 153px;
+		height: 52px;
+	}
+	.button a
+	{
+		font-size: 12px;
+		line-height: 52px;
+	}
+	.home_subtitle
+	{
+		font-size: 12px;
+	}
+	.home_title
+	{
+		font-size: 24px;
+	}
+	.home_price
+	{
+		font-size: 18px;
+	}
+	.search_form_button
+	{
+		font-size: 12px;
+	}
+	.city_title
+	{
+		font-size: 24px;
+	}
+	.city_subtitle
+	{
+		font-size: 14px;
+	}
+	.newsletter_title
+	{
+		font-size: 24px;
+	}
+	.footer_phone,
+	.cr
+	{
+		font-size: 12px;
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	.footer_phone
+	{
+		display: none;
+	}
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}
